@@ -1,11 +1,14 @@
-export const slides = [
-  './images/slides/001.jpg',
-  './images/slides/002.jpg',
-  './images/slides/003.jpg'
-];
-
 const categories = {
   projects: [
+    {
+        name: 'Castle Plaza Just Cuts',
+        cover: './images/Castle Plaza Just Cuts/logo image/thumbnail.jpeg',
+        photos: [
+        './images/Castle Plaza Just Cuts/Just Cuts Castle Plaza 01.jpg',
+        './images/Castle Plaza Just Cuts/Just Cuts Castle Plaza 02.jpg',
+        './images/Castle Plaza Just Cuts/Just Cuts Castle Plaza 03.jpg',
+        ]
+    },
     {
         name: 'Burwood Just Cuts',
         cover: './images/01 Burwood Just Cuts/Logo/logo image 01.jpg',
@@ -162,179 +165,7 @@ const categories = {
             './images/15 Tongli Supermanrket/002 (1).jpg'
         ]
     }
-  ],
-  // renders: [
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0001.jpg',
-  //     photos: [
-  //       './images/renders/0001.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0002.jpg',
-  //     photos: [
-  //       './images/renders/0002.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0003.jpg',
-  //     photos: [
-  //       './images/renders/0003.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0004.jpg',
-  //     photos: [
-  //       './images/renders/0004.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0005.jpg',
-  //     photos: [
-  //       './images/renders/0005.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0006.jpg',
-  //     photos: [
-  //       './images/renders/0006.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0007.jpg',
-  //     photos: [
-  //       './images/renders/0007.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0008.jpg',
-  //     photos: [
-  //       './images/renders/0008.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0009.jpg',
-  //     photos: [
-  //       './images/renders/0009.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0010.jpg',
-  //     photos: [
-  //       './images/renders/0010.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0011.jpg',
-  //     photos: [
-  //       './images/renders/0011.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0012.jpg',
-  //     photos: [
-  //       './images/renders/0012.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0013.jpg',
-  //     photos: [
-  //       './images/renders/0013.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Zoom',
-  //     cover: './images/renders/0014.jpg',
-  //     photos: [
-  //       './images/renders/0014.jpg'
-  //     ]
-  //   },
-  //   {
-  //     name: 'Wok Master',
-  //     cover: './images/renders/0015.jpg',
-  //     photos: [
-  //       './images/renders/0015.jpg',
-  //       './images/renders/0016.jpg'
-  //     ]
-  //   },
-  // ],
-  // paintings: [
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/001big.jpg',
-  //     photos: ['./images/paintings/001big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/002big.jpg',
-  //     photos: ['./images/paintings/002big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/003big.jpg',
-  //     photos: ['./images/paintings/003big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/004big.jpg',
-  //     photos: ['./images/paintings/004big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/005big.jpg',
-  //     photos: ['./images/paintings/005big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/006big.jpg',
-  //     photos: ['./images/paintings/006big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/007big.jpg',
-  //     photos: ['./images/paintings/007big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/008big.jpg',
-  //     photos: ['./images/paintings/008big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/009big.jpg',
-  //     photos: ['./images/paintings/009big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/010big.jpg',
-  //     photos: ['./images/paintings/010big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/011big.jpg',
-  //     photos: ['./images/paintings/011big.jpg']
-  //   },
-  //   {
-  //     name: 'zoom',
-  //     cover: './images/paintings/012big.jpg',
-  //     photos: ['./images/paintings/012big.jpg']
-  //   },
-  // ],
+  ]
 };
-
-export const links = Object.keys(categories).concat('contact');
 
 export default categories;

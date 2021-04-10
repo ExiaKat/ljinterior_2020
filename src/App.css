@@ -1,5 +1,6 @@
 @import "./styles/Masonry.css";
 @import "./styles/grid.css";
+@import "./styles/SideMenu.css";
 
 .App {
   text-align: center;
@@ -52,8 +53,8 @@ li {
 
 .links {
   position: absolute;
-  right: 20px;
-  margin: 0px
+  right: 10px;
+  margin: 0px;
 }
 
 .link {
@@ -90,4 +91,50 @@ a {
 .dia_member {
   vertical-align: middle;
   margin: 10px;
+}
+
+.dia {
+  width: 200px;
+}
+
+.asofia {
+  width: 100px
+}
+
+@media only screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
+
+  .links {
+    position: absolute;
+    right: 50px;
+    margin: 0px;
+  }
+
+  .bm-burger-button {
+    display: block;
+  }
+
+  .aboutme {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+   p{
+     font-size: large;
+   }
+
+   .masonry__container {
+     position: relative;
+     top: 50px;
+   }
+
+   .dia {
+     width: 100px;
+   }
+
+   .asofia {
+     width: 50px;
+   }
 }

@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import SideMenu from './components/SideMenu'
 import {
   BrowserRouter as Router,
   Switch,
@@ -37,6 +38,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App" style={this.state.style}>
+          <SideMenu />
           <Navigation />
           <Links />
           <Switch>

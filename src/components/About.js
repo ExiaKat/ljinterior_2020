@@ -12,8 +12,8 @@ class About extends Component {
                 <p>We believea good design works closely with business branding  and assist business development. </p>
                 <p>
                     <span className="dia_member">Member of: </span>
-                    <img className="dia_member" src="/images/dia_logo.png" alt="Design Institute of Australia logo" width="200px"/>
-                    <img className="dia_member" src="/images/asofia.png" alt="ASOFIA log" width="100px"/>
+                    <img className="dia_member dia" src="/images/dia_logo.png" alt="Design Institute of Australia logo"/>
+                    <img className="dia_member asofia" src="/images/asofia.png" alt="ASOFIA log"/>
                 </p>
             </div>
         )
